@@ -28,7 +28,7 @@
     margin-right: -12px;
 }
 
-.col-6{
+.col-6 {
     width: 50%;
     padding-left: 12px;
     padding-right: 12px;
@@ -114,6 +114,14 @@
     margin-top: 10px;
 }
 
+.mt-137 {
+    margin-top: 137px;
+}
+
+.mt-199 {
+    margin-top: 199px;
+}
+
 .logBtn {
     width: 118px;
     height: 46px;
@@ -187,13 +195,15 @@
     padding-top: 256px;
 }
 
-.ml-17{
+.ml-17 {
     margin-left: 17px;
 }
-.ml-21{
+
+.ml-21 {
     margin-left: 21px;
 }
-.ml-15{
+
+.ml-15 {
     margin-left: 15px;
 }
 
@@ -205,11 +215,11 @@
     gap: 15px;
 }
 
-.ml-50{
+.ml-50 {
     margin-left: 50px;
 }
 
-.ml-63{
+.ml-63 {
     margin-left: 63px;
 }
 
@@ -321,20 +331,22 @@
     outline: none;
 }
 
-.goBtn:hover{
+.goBtn:hover {
     background: #2C49FE;
     color: #FFFFFF;
 }
 
-.mt-145{
+.mt-145 {
     margin-top: 145px;
 }
-.menu{
+
+.menu {
     position: absolute;
     padding: 20px;
     z-index: 10;
     top: 0%;
 }
+
 bg-layer::before {
     content: "";
     width: 100%;
@@ -355,6 +367,35 @@ bg-layer::before {
     background-size: cover;
     z-index: 0;
 }
-.mb-104{
+
+.mb-104 {
     margin-bottom: 104px;
+}
+
+
+.line4::after {
+    width: 166px;
+    height: 8px;
+    background: #2C49FE;
+    content: '';
+    display: flex;
+    position: absolute;
+}
+
+.line4::before {
+    width: 189px;
+    height: 8px;
+    background: #01C8FF;
+    content: '';
+    display: flex;
+    position: absolute;
+}
+
+.ushead {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    background: #000000;
 }
