@@ -49,7 +49,8 @@
 .justify-space-btwn {
     justify-content: space-between;
 }
-.text-align{
+
+.text-align {
     text-align: center;
 }
 
@@ -68,6 +69,7 @@
 .f-d-clmn {
     flex-direction: column;
 }
+
 .f-grow {
     flex-grow: 1;
 }
@@ -440,7 +442,8 @@ bg-layer::before {
     top: 43%;
     left: 45%;
 }
-.curser{
+
+.curser {
     cursor: pointer;
 }
 
@@ -451,7 +454,7 @@ bg-layer::before {
     padding-top: 40px;
 }
 
-.mb-15{
+.mb-15 {
     margin-bottom: 15px;
 }
 
@@ -462,6 +465,7 @@ bg-layer::before {
     width: 80px;
     background-color: #FFF;
 }
+
 .absolute-2 {
     position: absolute;
     top: -21%;
@@ -493,7 +497,7 @@ bg-layer::before {
 
 }
 
-.mt-6{
+.mt-6 {
     margin-top: 6px;
 }
 
@@ -510,15 +514,84 @@ bg-layer::before {
     margin-top: 35px;
     margin-bottom: 70px;
 }
-.posi-ab{
+
+.posi-ab {
     position: absolute;
 }
 
-.z-1{
+.z-1 {
     z-index: 1;
 }
-.transform{
+
+.transform {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+}
+
+.bg-image1 {
+    background-image: url(../images/Group48095505.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.padding-py {
+    padding: 50px 0;
+}
+
+.lorem3head {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62.4px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 708px;
+}
+
+.lorem4head {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 765px;
+}
+
+.number {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52.5px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.part {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mt-78{
+    margin-top: 78px;
+}
+.mb-6{
+    margin-bottom: 6px;
+}
+.mt-2{
+    margin-top: 2px;
+}
+.mt-3{
+    margin-top: 3px;
+}
+.mt-1{
+    margin-top: 1px;
 }
