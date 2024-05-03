@@ -765,11 +765,33 @@ bg-layer::before {
 }
 
 .w-536 {
-    width: 536px;   
+    width: 536px;
 }
-.gap-16{
+
+.gap-16 {
     gap: 16px;
 }
-.w-30{
+
+.w-30 {
     width: 310px;
+}
+
+.sign-up {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    border-radius: 23px;
+    background: #2C49FE;
+    border: none;
+    padding: 12px;
+    margin-top: 25px;
+}
+
+.sign-up:hover {
+    background-color: white;
+    border: 2px solid #4d67ea;
+    color: #4d67ea;
 }
