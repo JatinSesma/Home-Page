@@ -109,7 +109,7 @@
     color: #FFFFFF;
 }
 
-.events {
+.events2 {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -785,7 +785,7 @@ bg-layer::before {
     line-height: 150%;
     border-radius: 23px;
     background: #2C49FE;
-    border: none;
+    border: 2px solid white;
     padding: 12px;
     margin-top: 25px;
 }
@@ -810,6 +810,32 @@ bg-layer::before {
     width: 346px;
 }
 
+.menulist {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(123, 103, 155);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: all 200ms linear;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+input:checked~ul.menulist {
+    right: 0;
+}
+
+.pt-35{
+    padding-top: 35px;
+}
+.pb-25{
+    padding-bottom: 25px;
+}
+
 .mt-36 {
     margin-top: 36px;
 }
@@ -823,3 +849,94 @@ bg-layer::before {
     padding-left: 12px;
     padding-right: 12px;
 }
+
+.services {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.mt-11 {
+    margin-top: 11px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.box {
+    width: 90px;
+    height: 62px;
+    background: #2D3CAE87;
+}
+
+.show {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.pt-13{
+    padding-top: 13px;
+}
+.ml-310{
+    margin-left: 310px;
+}
+
+.companyName {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.padding-b {
+    padding-bottom: 12px;
+}
+.pt-1{
+    padding-top: 1px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.margin-bottom {
+    margin-bottom: 20px;
+}
+.padding-bt {
+    padding-top: 20px;
+}
+.height {
+    height: 100%;
+}
+.box-1 {
+    background: rgba(45, 60, 174, 0.53);
+}
+
+.padding-top-1 {
+    padding-top: 20px;
+}
+
+
